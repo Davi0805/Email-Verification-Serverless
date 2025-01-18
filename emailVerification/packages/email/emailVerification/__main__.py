@@ -30,6 +30,8 @@ def main(args):
             "body" : "no name provided"
             }
 
+
+    #!TODO SUBSTITUIR FROM_EMAIL COM EMAIL REGISTRADO NA EMPRESA
     sg = SendGridAPIClient(key)
     message = Mail(
         from_email = "melocardozo.video@gmail.com",
